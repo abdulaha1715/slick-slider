@@ -1,0 +1,132 @@
+/* ==================================================
+    Project Name  :  Slick Slider
+    Version       :  1.0
+    Author        :  Abdulaha Islam (https://github.com/abdulaha1715)
+    Developer:    :  Abdulaha Islam
+    Support       : abdulahaislam210917@gmail.com
+ ==================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sliders-wrapper {}
+
+.single-slide-item {
+    height: 580px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide-item-bg-1 {
+    background-image: url(../images/slide-bg/slider-bg-1.jpg);
+}
+
+.slide-item-bg-2 {
+    background-image: url(../images/slide-bg/slider-bg-2.jpg);
+}
+
+.slide-item-bg-3 {
+    background-image: url(../images/slide-bg/slider-bg-3.jpg);
+}
+
+.slide-content {
+    margin-top: 190px;
+}
+
+.slide-content .slide-title {
+    color: #5c6e79;
+    font-size: 16px;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+}
+
+.slide-content .slide-description {
+    color: rgb(92, 110, 121);
+    font-size: 38px;
+    margin: 0 0 30px;
+}
+
+.slide-content .slide-button {
+    font-size: 13px;
+    color: #fff;
+    background: #5c6e79;
+    display: inline-block;
+    margin: 0;
+    padding: 14px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #5c6e79;
+    transition: 0.3s;
+}
+
+.slide-content .slide-button:hover {
+    color: #5c6e79;
+    background: transparent;
+    border: 1px solid #5c6e79;
+}
+
+.slide-content-image {}
+
+.slide-content-image img {
+    width: 100%;
+}
+
+button.slick-arrow {
+    position: absolute;
+    top: 50%;
+    color: #000;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 0;
+    z-index: 9;
+}
+
+button.slick-prev {
+    left: 40px;
+}
+
+button.slick-next {
+    right: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+button.slick-arrow i {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.activete-sliders {
+    position: relative;
+}
+
+ul.slick-dots {
+    bottom: 30px;
+}
+
+.slick-dotted.slick-slider {
+    margin: 0;
+}
+
+ul.slick-dots li {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+}
+
+ul.slick-dots li.slick-active {
+    background: #ddd !important;
+}
